@@ -8,6 +8,7 @@
 namespace Oracle {
 
     // Daniel cipher: character-to-number mapping
+    // This is a derivation of the CipherX by Joel Love.
     int encipher_char(unichar c) {
         switch (c.toupper()) {
             case 'A': return 8;
